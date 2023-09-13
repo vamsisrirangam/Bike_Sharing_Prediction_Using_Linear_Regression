@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Here are the 5 major steps involed in Multiple Linear regersssion
-# 1. Reading, understanding and visulising the data
-# 2. Prepring the data model (train-test split, rescaling etc)
-# 3. Training the model
-# 4. Residual Analysis
-# 5. Decide which features have more impact on dependent variaable (cnt)
+##Data Extraction, Understanding and Visualization
+##Data Preparation
+##Training the Model
+##Residual Analysis
+##Building an understanding o important independent variables affecting target variable
+##Conlcusion
+
 
 # # Step1: Reading and Understanding the data
 
@@ -390,5 +391,6 @@ lr_model.summary()
 # In[ ]:
 
 
-# Observed temp, yr, mnth and season 3 (fall) has more impact on target variable "cnt" based on P value, R-Square and coefficient values
+##Conlusion 
+As per the observations, it can be observed that important variables being Temparature, Season(FALL), Year month being which can directly impact the increase in target variable, which is "cnt"cient values
 
